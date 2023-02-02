@@ -21,9 +21,14 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
     "bootstrap": "^4.0.0",
     "jquery": "^3.6.3",
     "jquery.min.js": "^3.5.1",
+    "open-iconic": "^1.1.1",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",
     "ua-parser-js": "^1.0.33"
