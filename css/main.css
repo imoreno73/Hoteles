@@ -8,15 +8,17 @@
     background-color:primary;
 } */
 .card-hotel{
-    flex: 1 150px;
-    padding: 2px 5px 2px 5px;
+    flex: 1 200px;
+    /* padding: 2px 0px 2px 0px; */
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .btn-reserva{
-    position:abasolute;
+    /* position:absolute; */
     width:100%;
-    left:0;
-    bottom:0;
+    /* left:0;
+    bottom:0; */
+    border-radius: 0px;
 }
 .material-symbols-outlined{
     padding-right: 10px;;
