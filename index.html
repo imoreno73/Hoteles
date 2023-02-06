@@ -90,7 +90,7 @@
                 <img class="card-img-top" src=".\images\hotel-png-4.png" alt="img hotel">
                 <h6 class="card-subtitle text-muted">Pais Vasco</h6>
                 <p class="card-text">Hotel en centro de bilbao con metro</p>
-                <button class="btn btn-outline-success"  data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
             </div>
             <div>
                 <button class="btn btn-primary btn-reserva"><span class="material-symbols-outlined">voting_chip</span>Reservar</button>
@@ -202,14 +202,7 @@
                 </div>
               </div>
             </div>
-          </div>
-              
-
-
-
-
-
-
+          </div>         
 
     </footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -220,6 +213,8 @@
         $("[data-toggle='tooltip']").tooltip();
         $("[data-toggle='popover']").popover();
         $('.carousel').carousel({interval: 100});
+            $('#contactoBtn').on('show.bs.modal', function (e){console.log('el modal se esta mostrando');
+            });
 
       });  
     </script> 
