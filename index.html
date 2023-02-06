@@ -63,7 +63,7 @@
     <div class="d-flex flex-wrap flex-row-reverse">
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
             <div class="card-body">
-                <h5 class="card-title">Gran Hotel</h5>
+                <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="10% de dto. para reservas de mas de 1 habitación">Gran Hotel</h5>
                 <img class="card-img-top" src=".\images\hotel-png-4.png" alt="img hotel">
                 <h6 class="card-subtitle text-muted">Pais Vasco</h6>
                 <p class="card-text">Hotel en centro de bilbao con metro</p>
@@ -79,10 +79,10 @@
                 <img class="card-img-top" src=".\images\hotel-png-4.png" alt="img hotel">
                 <h6 class="card-subtitle text-muted">Madrid</h6>
                 <p class="card-text">Hotel en Madrid de lujo</p>
-                <button class="btn btn-outline-success"  data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
             </div>
             <div>   
-                <button class="btn btn-primary btn-reserva"><span class="material-symbols-outlined">voting_chip</span>Reservar</button>
+                <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Avisos" data-content="Consultar disponibilidad por evento"><span class="material-symbols-outlined">voting_chip</span>Reservar</button>
             </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -99,7 +99,7 @@
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
             <div class="card-body">
-                <h5 class="card-title">Hotel Pestana</h5>
+                <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="No se admiten niños">Hotel Pestana</h5>
                 <img class="card-img-top" src=".\images\hotel-png-4.png" alt="img hotel">
                 <h6 class="card-subtitle text-muted">Salvador de Bahia</h6>
                 <p class="card-text">Hotel en Salvador de Bahia</p>
@@ -192,5 +192,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover();
+      });  
+    </script> 
    </body>
 </html>
