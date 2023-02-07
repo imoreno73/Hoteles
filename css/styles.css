@@ -1,0 +1,44 @@
+.jumbotron {
+  background-color: yellow;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+/* .btn{
+      color:secondary;
+      background-color:primary;
+  } */
+.card-hotel {
+  background-color: yellow;
+  flex: 1 200px;
+  /* padding: 2px 0px 2px 0px; */
+  /* margin-top: 10px;
+      margin-bottom: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.btn-reserva {
+  /* position:absolute; */
+  width: 100%;
+  /* left:0;
+      bottom:0; */
+  border-radius: 0px; }
+
+.material-symbols-outlined {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px; }
+
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 10px,10px,10px,10px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.tab-content {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
