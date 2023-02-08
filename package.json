@@ -26,6 +26,8 @@
   "homepage": "https://github.com/imoreno73/Hoteles#readme",
   "devDependencies": {
     "copyfiles": "^2.4.1",
+    "grunt": "^1.6.1",
+    "grunt-contrib-sass": "^2.0.0",
     "lite-server": "^2.6.1",
     "node-sass": "^8.0.0",
     "onchange": "^7.1.0",
