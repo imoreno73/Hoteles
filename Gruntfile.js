@@ -56,6 +56,16 @@ module.exports=function(grunt){
                     src: ['*.html'],
                     dest: 'dist'
                 }]
+            },
+            fonts: {
+                files: [{
+                    //for font awesome
+                    expand: true,
+                    dot: true,
+                    cwd: 'node_modules/open-iconic/font',
+                    src: ['fonts/*.*'],
+                    dest: 'dist'
+                }]
             }
         },
 
